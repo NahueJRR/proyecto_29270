@@ -3,53 +3,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 
 /* HEADER  */
 
 header {
+    background-color: black;
     display: flex;
-    flex-direction: column;
-    text-align: center;
 }
-img, nav {
+
+/* img, nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 20px;
+} */
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 20px;
+    margin-top: 22px;
 }
 
 .logo {
     display: flex;
     flex-direction: row;
-    max-width: 120px;
     width: 250px;
     align-items: center;
+    margin-top: 22px;
 
-}
- /* HEADER */
-body {
-
-    display: grid;
-    background-color: black;
-    font-size: 16px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-li {
-    display: inline-block;
-}
-
-a {
-    display: inline-block;
-    
-}
-
-header {
-    background-color: black;
 }
 
 .navegacion {
@@ -67,13 +53,29 @@ header {
 .navegacion:hover {
 
     background-color: grey;
+    border: 100px;
+    border-radius: 20px;
+    transition: background-color .5s;
 }
-h1 {
+ /* HEADER */
+
+ body {
+
+    display: grid;
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* h1 {
     color: goldenrod;
     letter-spacing: 3px;
     font-family: Quicksand;
     padding-left: 150px;
-}
+} */
 
 
 footer {
@@ -82,22 +84,46 @@ footer {
     font-family: sans-serif;
     background-color: black
 }
+
+/* CONTACTO FORMULARIO */
+.contacto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .form__register {
-    display: block;
-    width: 400px;
-    padding: 50px;
-    margin: 800px;
-    margin-top: 10px;
+    margin: auto;
+    width: 350px;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 150px 0.5px;
 }
 
 .form {
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    overflow: hidden;
 }
 
+.form-1 {
+    margin: 5px;
+    width: 400px;
+    height: 200px;
+    top: 20px;
+}
 
+.boton {
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    background-color: #3866f2;
+    font-weight: 300px;
+    border-radius: 15px;
+}
+
+/* CONTACTO FORMULARIO */
 
 .footer__contacto {
     color: goldenrod;
@@ -113,22 +139,12 @@ footer {
         font-weight: bold;
     }
 
-.duko {
+/* .duko {
         display: inline-block;
        margin-left: 550px;
        border-radius: 45px;
-    }
-
-
-.contacto {
-    background-image: url(../images/recital.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 1000px;
-}
-
+    } 
+ */
 .footer__index {
     color: goldenrod;
     display: inline-block;
