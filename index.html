@@ -13,27 +13,35 @@
     <!-- INICIO BARRA DE NAVEGACION -->
     <header class="header__index">
         <img class="logo" src="./images/Frame.png" alt="Logo productora">
-        <nav>
-        <div class="menu">
-            <ul class="menu__ul"> 
-                <li><a class="navegacion" href="./index.html">Inicio</a>
+        <nav class="navbar navbar-expand-lg bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="pages/contacto.html">Contacto</a>
                 </li>
-                <li>
-                    <a  class="navegacion" href="pages/contacto.html">Contacto</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/exitos.html">Exitos</a>
                 </li>
-                <li>
-                    <a  class="navegacion" href="pages/exitos.html">Exitos</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Trabajos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Exitos</a></li>
+                    <li><a class="dropdown-item" href="#">Colaboraciones</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                  </ul>
                 </li>
-                <li>
-                    <a  class="navegacion" href="pages/novedades.html">Novedades</a>
-                </li>
-                <li>
-                    <a  class="navegacion" href="pages/nosotros.html">Nosotros</a>  
-                </li>
-            </ul>
-        </div> 
+              </ul>
+            </div>
+          </div>
         </nav>
-         <!-- FIN DE BARRA DE NAVEGACION -->
+        <nav>
     </header>
 
     <main class="container">
