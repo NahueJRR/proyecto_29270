@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 1</title>
-    <link rel="stylesheet" href="../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/index.css">
 </head>
-<body>
+<body class="body__responsive">
     <header>
         <a href="../index.html">
             <img class="logo" src="../images/Frame.png" alt="Logo productora">
@@ -36,18 +37,28 @@
     </header>
  
     <main> 
-        <h2 class="ns">New signings </h2>
-        <div>
-        <a href="https://www.youtube.com/watch?v=p38WgakuYDo&ab_channel=BadBunny" target="_blank">
-        <img class="bb" src="../images/bb.jpg" alt="Bad bunny cantante en auge">
-    </a>
-       <a href="https://www.youtube.com/watch?v=LDtABz-5Ka4" target="_blank">
-        <img class="dani" src="../images/dani.jpg" alt="Dani Ribba campeon">
-       </a>
-      <a href="https://www.youtube.com/watch?v=af0PqRImADo" target="_blank">
-        <img class="sara" src="../images/Sara.jpeg" alt="Sara socas nueva integrante">
-      </a>
+    <div class="ns">
+        <h2 class="h2__ns">New signings </h2>
     </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel__imgs">
+          <div class="carousel-item active">
+            <a href="https://www.youtube.com/watch?v=p38WgakuYDo&ab_channel=BadBunny" target="_blank">
+                <img src="../images/bb.jpg" class="d-block w-100" alt="...">
+            </a>            
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.youtube.com/watch?v=LDtABz-5Ka4" target="_blank"> 
+                <img src="../images/dani.jpg" class="d-block w-100" alt="...">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.youtube.com/watch?v=af0PqRImADo" target="_blank">
+                <img src="../images/Sara.jpeg" class="d-block w-100" alt="...">
+              </a>
+          </div>
+        </div>
+      </div>
     </main>
 <footer class="footer__nov">
     <p> Copyright © 2022 Tuki's flow Entertainment.</p>
@@ -57,6 +68,6 @@
 
 </footer>
         
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

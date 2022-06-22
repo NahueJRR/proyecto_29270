@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 1</title>
-    <link rel="stylesheet" href="../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <header>
@@ -37,17 +38,20 @@
  
    <main>
        <!-- Exitos -->
-       <div><h1>Crace - Bajo la mira</h1>
-       </div>
-    <iframe class="crace" width="1904" height="768" src="https://www.youtube.com/embed/lmTY2iuQi8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <div class="clips" data-aos="fade-up-right" >
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/lmTY2iuQi8I" title="Crace - Bajo la Mira (Official Video) Feat Real Roy [Shot by SALINAS AUDIOVISUAL]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
-    <p><h1>Real Roy - Torque</h1></p>
-    <iframe class="roy" width="1904" height="768" src="https://www.youtube.com/embed/SmW4QYxwkkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="clips__dani"  data-aos="fade-up-right" >
+            <iframe width="1280" height="544" src="https://www.youtube.com/embed/DCx_w4lb98E" title="Dani - A Mi Lado (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     <!--  Exitos -->
 
     <!-- SUSCRIBITE -->
     <form class="form__noticias" action="">
-        <h2>Noticias</h2>
+        <div h2__noticias>
+            <h2>Noticias</h2>
+        </div>
         <input class="form__noticias-a" type="text" name="Noticias" id="" placeholder="Tu email">
         <input class="boton" type="submit" name="Inscribirse">
     </form>
@@ -63,6 +67,9 @@
 </footer>
 
 <!-- FIN FOOTER -->
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
