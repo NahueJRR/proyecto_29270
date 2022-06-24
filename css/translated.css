@@ -1,4 +1,143 @@
 /* MISC */
+/* Font Family */
 /* NORMALIZE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: black;
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+html {
+  font-size: 62.5%; }
+
+ul {
+  text-decoration: none; }
+
 /* PARTIALS */
+/* HEADER */
+header {
+  background-color: black;
+  display: flex; }
+  header .menu {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 20px;
+    margin-top: 22px; }
+  header .logo {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    align-items: center;
+    margin-top: 22px; }
+  header .navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: goldenrod;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    padding: 30px;
+    margin-left: 100px; }
+    header .navegacion:hover {
+      background-color: grey;
+      border: 100px;
+      border-radius: 20px;
+      transition: background-color .5s; }
+
+/* FOOTER */
+footer {
+  color: goldenrod;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: black; }
+
 /* VIEWS */
+/* CONTACTO */
+.contacto {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  .contacto .form__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .contacto .p__contacto {
+    flex-direction: column;
+    align-items: center;
+    color: goldenrod;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #8A3033; }
+  .contacto .form__register {
+    margin: auto;
+    width: 350px;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 150px 0.5px; }
+  .contacto .form {
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    overflow: hidden; }
+  .contacto .form-1 {
+    margin: 5px;
+    width: 400px;
+    height: 200px;
+    top: 20px; }
+  .contacto .boton {
+    width: 400px;
+    height: 50px;
+    background-color: #3866f2;
+    font-weight: 300px;
+    border-radius: 15px; }
+
+.footer__contacto {
+  color: goldenrod; }
+
+/*  MEDIAS QUERIES */
+@media screen and (max-width: 500px) {
+  body {
+    display: block;
+    font-size: 10px; }
+    body header {
+      display: flex;
+      align-items: center;
+      justify-content: space-around; }
+      body header .logo {
+        display: none; }
+  .form__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  footer {
+    font-size: 1rem; }
+  .menu__div {
+    display: flex; }
+    .menu__div .menu {
+      flex-direction: column;
+      justify-content: center;
+      font-size: 10px; }
+  .h2__ns {
+    font-size: 20px; }
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; }
+  .conteiner {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px; }
+  .clips {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px; } }

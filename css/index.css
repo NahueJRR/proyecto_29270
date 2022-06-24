@@ -23,7 +23,6 @@ html {
 ul {
     text-decoration: none;
 }
-
 /* HEADER  */
 
 header {
@@ -79,9 +78,9 @@ header {
 footer {
     color: goldenrod;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Rubik', sans-serif;
     background-color: black
-}
+} 
 
 /* CONTACTO */
 .contacto {
@@ -91,11 +90,19 @@ footer {
 }
 
 .p__contacto {
+    flex-direction: column;
+    align-items: center;
     color: goldenrod;
     font-size: 2rem;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
     color: #8A3033;
+}
+
+.form__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form__register {
@@ -135,10 +142,9 @@ footer {
 
 .footer__index {
     color: goldenrod;
-    display: inline-block;
 }
 
-/* 
+
 .form__noticias {
     display: block;
     padding-right: 300px;
@@ -146,7 +152,7 @@ footer {
     margin: 300px 900px;
     padding-right: 3000px;
     
-} */
+}
 
 h1 {
     font-family: 'Rubik', sans-serif;
@@ -168,8 +174,7 @@ h1 {
     font-size: 55px;
     display:inline-block;
     margin-top: 10px;
-    font-family: 'Rubik', sans-serif;
-
+    font-family: 'Jost', sans-serif;
     
 }
 
@@ -187,9 +192,17 @@ h1 {
 
 .footer__nov { 
     color: goldenrod;
+    margin-top: 900px;
 }
 
 /* NOSOTROS  */
+
+.form__flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 .h2__noticias {
     display: flex;
@@ -197,22 +210,11 @@ h1 {
 }
 
 h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: bold;
     color: #8A3033;
     margin: 20px;
     font-size: 50px;
-}
-
-
-
-.contenido {
-    /* width: 100%; */
-    max-width: 870px;
-    display: grid;
-    grid-gap: 1px;
-    grid-template-columns: repeat(5, 1000px);
-    grid-template-rows: repeat(4, 2fr);
 }
 
 
@@ -244,7 +246,7 @@ a:hover {
 
 /* @MEDIAS */
 
-@media screen and (max-width: 500px) {
+ @media screen and (max-width: 500px) {
     header {
         display: flex;
         align-items: center;
@@ -298,17 +300,14 @@ a:hover {
     }
     
 
-}
+} 
 
 .img__equipo {
         width: 100%;
         height: 100%;
         object-fit: cover;
        }
-
-.back {
-    width: 100%;
-}
+       
 
        /* GRID EQUIPO DE TRABAJO */
     .contenido {
