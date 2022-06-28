@@ -1,0 +1,62 @@
+/* CONTACTO */
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    .form__div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p__contacto {
+    flex-direction: column;
+    align-items: center;
+    color: goldenrod;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #8A3033;
+    
+    }
+
+    .form__register {
+        margin: auto;
+        width: 350px;
+        max-width: 600px;
+        border-radius: 10px;
+        padding: 150px 0.5px;
+
+        .form {
+            width: 400px;
+            height: 50px;
+            margin: 5px;
+            overflow: hidden;
+                }
+        
+        .form-1 {
+            margin: 5px;
+            width: 400px;
+            height: 200px;
+            top: 20px;
+                }
+        
+        .boton {
+            width: 400px;
+            height: 50px;
+            background-color: #3866f2;
+            font-weight: 300px;
+            border-radius: 15px;
+                }
+    }
+    
+       
+}
+
+
+.footer__contacto {
+    color: goldenrod;
+    
+}

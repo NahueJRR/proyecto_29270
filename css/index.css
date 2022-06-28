@@ -23,7 +23,6 @@ html {
 ul {
     text-decoration: none;
 }
-
 /* HEADER  */
 
 header {
@@ -84,9 +83,9 @@ header {
 footer {
     color: goldenrod;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Rubik', sans-serif;
     background-color: black
-}
+} 
 
 .index__h2 {
     display: flex;
@@ -166,12 +165,21 @@ footer {
     text-align: center;
 }
 
-.contacto__p {
+.p__contacto {
+    flex-direction: column;
+    align-items: center;
+    color: goldenrod;
     font-size: 2rem;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
     color: #8A3033;
     margin: 10rem 0 0 50rem;
+}
+
+.form__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form__register {
@@ -205,6 +213,20 @@ footer {
 
 .footer__contacto {
     color: goldenrod;
+    
+}
+
+.footer__index {
+    color: goldenrod;
+}
+
+
+.form__noticias {
+    display: block;
+    padding-right: 300px;
+    margin: auto;
+    margin: 300px 900px;
+    padding-right: 3000px;
     
 }
 
@@ -253,6 +275,22 @@ h1 {
     margin-right: 10rem;
 }
 
+
+.footer__nov { 
+    color: goldenrod;
+    margin-top: 900px;
+}
+
+/* NOSOTROS  */
+
+.form__flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
 .h2__noticias {
     display: flex;
     justify-content: center;
@@ -260,7 +298,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: bold;
     color: #8A3033;
     margin: 20px;
@@ -351,7 +389,7 @@ a:hover {
 
             /* @MEDIAS */
 
-@media screen and (max-width: 500px) {
+ @media screen and (max-width: 500px) {
     header {
         display: flex;
         align-items: center;
