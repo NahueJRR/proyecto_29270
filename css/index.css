@@ -147,7 +147,7 @@ footer {
 
 /* CONTACTO */
 
-.img__recital {
+.img__reci {
     display: flex;
     width: 100%;   
     z-index: -1;
@@ -156,13 +156,6 @@ footer {
     background-size: cover;
     height: 100vh;
     margin: 0;
-}
-
-
-.contacto__form {
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 
 .p__contacto {
@@ -176,11 +169,13 @@ footer {
     margin: 10rem 0 0 50rem;
 }
 
-.form__div {
+
+.form__contacto {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
 
 .form__register {
     width: 350px;
@@ -189,6 +184,7 @@ footer {
     padding: 100px 0.5px;
 }
 
+
 .form {
     width: 400px;
     height: 50px;
@@ -196,20 +192,15 @@ footer {
     overflow: hidden;
 }
 
-.form-1 {
-    margin: 5px;
-    width: 400px;
-    height: 200px;
-    top: 20px;
-}
 
-.boton {
+.form__boton {
     width: 400px;
     height: 50px;
     background-color: #3866f2;
     font-weight: 300px;
     border-radius: 15px;
 }
+
 
 .footer__contacto {
     color: goldenrod;
