@@ -1,8 +1,12 @@
 @media screen and (max-width: 500px) {
     
     body {
-        display: block;
-       font-size: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 10px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
 
        header {
         display: flex;

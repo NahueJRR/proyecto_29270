@@ -1,17 +1,16 @@
 /* CONTACTO */
 
-.contacto {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    
-    .form__div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.img__recital {
+    display: flex;   
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
 
-    .p__contacto {
+.p__contacto {
     flex-direction: column;
     align-items: center;
     color: goldenrod;
@@ -19,44 +18,37 @@
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
     color: #8A3033;
-    
-    }
-
-    .form__register {
-        margin: auto;
-        width: 350px;
-        max-width: 600px;
-        border-radius: 10px;
-        padding: 150px 0.5px;
-
-        .form {
-            width: 400px;
-            height: 50px;
-            margin: 5px;
-            overflow: hidden;
-                }
-        
-        .form-1 {
-            margin: 5px;
-            width: 400px;
-            height: 200px;
-            top: 20px;
-                }
-        
-        .boton {
-            width: 400px;
-            height: 50px;
-            background-color: #3866f2;
-            font-weight: 300px;
-            border-radius: 15px;
-                }
-    }
-    
-       
+    margin: 10rem 0 0 50rem;
 }
 
 
-.footer__contacto {
-    color: goldenrod;
-    
+.form__contacto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.form__register {
+    width: 350px;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 100px 0.5px;
+}
+
+
+.form {
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+
+.form__boton {
+    width: 400px;
+    height: 50px;
+    background-color: #3866f2;
+    font-weight: 300px;
+    border-radius: 15px;
 }
