@@ -1,5 +1,17 @@
 /* Font Family */
 
-$font-principal: 'Jost', sans-serif;
-$font-secondary: 'Karla', sans-serif;
-$font-alternative: 'Rubik', sans-serif; 
+$font-principal: 'Jost'; 
+$font-secondary: 'Karla';
+$font-alternative: 'Arima';
+
+/* Font Color */
+
+$font-color1: goldenrod;
+$font-color2: #8A3033;
+
+/* MAPS */
+
+$fuentes: (
+    principal: 'Jost',
+    secondary: 'Karla', 
+);

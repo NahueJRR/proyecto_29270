@@ -13,11 +13,11 @@
 .p__contacto {
     flex-direction: column;
     align-items: center;
-    color: goldenrod;
+    color: $font-color1;
     font-size: 2rem;
-    font-family: 'Rubik', sans-serif;
+    font-family: $font-secondary;
     font-weight: bold;
-    color: #8A3033;
+    color: $font-color2;
     margin: 10rem 0 0 50rem;
 }
 
@@ -45,10 +45,31 @@
 }
 
 
-.form__boton {
+
+.btn {
     width: 400px;
     height: 50px;
     background-color: #3866f2;
     font-weight: 300px;
     border-radius: 15px;
 }
+
+.btn__wsp {
+    @extend .btn;
+    background-color: green;
+    &:hover { 
+        background-color: greenyellow;
+        
+    }
+}
+
+
+.btn__email {
+    @extend .btn;
+    background-color: #3866f2;
+    &:hover {
+        background-color: lightblue;
+    }
+
+}
+

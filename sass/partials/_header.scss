@@ -26,8 +26,8 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        color: goldenrod;
-        font-family: 'Karla', sans-serif;
+        color: $font-color1;
+        font-family: $font-secondary;
         font-weight: bold;
         padding: 30px;
         margin-left: 100px;

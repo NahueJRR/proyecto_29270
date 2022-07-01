@@ -1,7 +1,7 @@
 /* NOVEDADES */
 
 .footer__nov { 
-    color: goldenrod;
+    color: $font-color1;
     margin-top: 90rem;
     display: inline-block;
 }
@@ -18,11 +18,12 @@
 }
 
 a {
-    color: goldenrod;
+    color: $font-color1;
     text-decoration: none;
     
 }
 
 a:hover {
-    color: goldenrod;
+    color: $font-color1;
 }
+

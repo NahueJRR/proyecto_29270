@@ -18,7 +18,7 @@
     font-size: 55px;
     width: 0.5rem;
     margin-right: 30rem;
-    font-family: 'Rubik', sans-serif;
+    font-family: $font-secondary;
 }
 
 .form__noticias-a {
@@ -40,6 +40,7 @@
 
 .flex__p p {
     background-color: #3866f2;
+    font-family: map-get($fuentes,principal);
     display: flex;
     flex-direction: column;
 }
@@ -47,6 +48,7 @@
 
 .h2__noticias {
     display: flex;
+    font-family: map-get($fuentes,secondary);
     justify-content: center;
     margin-right: 1.5rem;
 }
