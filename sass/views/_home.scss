@@ -2,7 +2,49 @@
 
 .videos {
     @include flex (column, wrap, center) ;
-    margin-top: 25px;
+    margin-top: 2.5rem;
+}
+
+
+.videos__flex {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.videos__flex-crace {
+    justify-items: center;
+}
+
+.colab__subtitle {
+
+    margin-top: 10rem;
+    padding-right: 10rem;
+    font-weight: 30rem;
+}
+
+.colab__videos {
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: row;
+    gap: 3rem;
+    text-transform: uppercase;
+}
+
+.videos-flex__item-crace {
+    padding-top: 0%;
+    height: auto;
+}
+
+.videos-flex__item {
+    margin-bottom: 5rem;
+
+}
+
+
+.index__suscribe {
+    display: flex;
+    flex-direction: column;
 }
 
 .index__h2 {
@@ -11,16 +53,23 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
+    margin-top: 20rem;
+    text-transform: uppercase;
 }
 
 .section__p {
+    display: flex;
     color: $font-color1;
     font-size: 2rem;
-    margin-right: 5rem;
+    margin-right: 3rem;
+    letter-spacing: 1px;
 }
 
 .section__p--1 {
-    margin-left: 45rem;
+    margin-left: 38rem;
+    font-family: $font-alternative;
+    padding-right: 10rem;
+    justify-items: flex-start;
 }
 
 .form__index {
@@ -33,7 +82,7 @@
 }
 
 .form__index--a {
-    padding: 20px;
+    padding: 2rem;
     margin-top: 3.5rem;
     margin-right: 1rem;
     width: 55rem;
@@ -42,7 +91,7 @@
 
 .form__boton--index {
     
-    width: 144px;
+    width: 14.4rem;
     height: 50px;
     background-color: #3866f2;
     border-radius: 10px;

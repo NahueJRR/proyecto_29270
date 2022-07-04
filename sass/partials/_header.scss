@@ -8,17 +8,19 @@ header {
         justify-content: space-around;
         text-decoration: none;
         list-style: none;
-        padding: 10px 20px;
-        margin-top: 22px;
+        padding: 1rem 2rem;
+        margin-top: 2.2rem;
+        position: fixed;
+        z-index: 1;
     }
 
     
     .logo {
     display: flex;
     flex-direction: row;
-    width: 200px;
+    width: 12rem;
     align-items: center;
-    margin-top: 22px;
+    margin-top: 2.2rem;
 
     }
 
@@ -29,14 +31,14 @@ header {
         color: $font-color1;
         font-family: $font-secondary;
         font-weight: bold;
-        padding: 30px;
-        margin-left: 100px;
+        padding: 3rem;
+        margin-left: 10rem;
         
         &:hover {
 
             background-color: grey;
-            border: 100px;
-            border-radius: 20px;
+            border: 10rem;
+            border-radius: 2rem;
             transition: background-color .5s;
         }
         
