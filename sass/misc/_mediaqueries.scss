@@ -108,7 +108,7 @@
     }
 
     header .logo {
-        display: block;
+        display: none;
     }
 
     .menu {
@@ -122,4 +122,14 @@
 
     }
 
+}
+
+@media screen and (max-width: 480px) {
+    .grilla {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        
+    }
 }

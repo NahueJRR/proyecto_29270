@@ -23,7 +23,7 @@ body {
   list-style: none;
   font-size: 1.6rem;
   max-width: 1200px;
-  margin: 0 auto; }
+  width: 100%; }
 
 html {
   font-size: 62.5%; }
@@ -434,7 +434,7 @@ body .footer__nov {
     align-items: baseline;
     justify-content: flex-end; }
   header .logo {
-    display: block; }
+    display: none; }
   .menu {
     display: flex;
     justify-content: space-around;
@@ -443,3 +443,9 @@ body .footer__nov {
     padding: 1rem 2rem;
     margin-top: 2.2rem;
     position: relative; } }
+
+@media screen and (max-width: 480px) {
+  .grilla {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; } }
