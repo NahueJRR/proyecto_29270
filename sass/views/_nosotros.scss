@@ -6,47 +6,46 @@
     justify-content: flex-start;
     gap: 3rem;
     margin-top: 3rem;
-}
 
-.nosotros__p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: $font-color3;
-    font-size: $font-subtitle;
-    font-family: $font-alternative;
+    .nosotros__p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: $font-color3;
+        font-size: $font-subtitle;
+        font-family: $font-alternative;
+    }
 }
-
 
 .nosotros__suscribe {
     display: flex;
     flex-direction: column;
-}
 
-.nosotros__h2 {
+    .nosotros__h2 {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 20rem;
-    text-transform: uppercase;
-}
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 20rem;
+        text-transform: uppercase;
+    }
 
-.section__p {
-    display: flex;
-    color: $font-color1;
-    font-size: $font-subtitle;
-    margin-right: 3rem;
-    letter-spacing: 1px;
-}
+    .section__p {
+        display: flex;
+        color: $font-color1;
+        font-size: $font-subtitle;
+        margin-right: 3rem;
+        letter-spacing: 1px;
 
-.section__p--1 {
-    margin-left: 38rem;
-    font-family: $font-alternative;
-    padding-right: 30rem;
-    justify-items: flex-start;
-  
+        .section__p--1 {
+            margin-left: 38rem;
+            font-family: $font-alternative;
+            padding-right: 30rem;
+            justify-items: flex-start;
+          
+        }
+    }
 }
 
 .form__nosotros {
@@ -56,25 +55,29 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+
+    .form__nosotros--a {
+        padding: 20px;
+        margin-top: 3.5rem;
+        margin-right: 1rem;
+        width: 55rem;
+        text-shadow: none;
+    }
+
+    .form__boton--nosotros {
+    
+        width: 14.4rem;
+        height: 5rem;
+        background-color: #3866f2;
+        border-radius: 1rem;
+        margin-top: 3.4rem;
+        margin-right: 1rem;
+    
+    }
     
 }
 
-.form__nosotros--a {
-    padding: 20px;
-    margin-top: 3.5rem;
-    margin-right: 1rem;
-    width: 55rem;
-    text-shadow: none;
-}
 
-.form__boton--nosotros {
-    
-    width: 14.4rem;
-    height: 5rem;
-    background-color: #3866f2;
-    border-radius: 1rem;
-    margin-top: 3.4rem;
-    margin-right: 1rem;
 
-}
+
     
