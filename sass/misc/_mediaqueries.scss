@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     
     body {
         display: flex;
@@ -7,17 +7,34 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+    }
 
-       header {
+    header {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        padding: 5rem;
+        font-size: $font-subtitle;
+    }
 
-        .logo {
-            display: none;
-        }
+    header a {
+        font-size: $font-subtitle;
+    }
+
+    header .logo {
+        
+        display: none;
+        
     }
     
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        list-style: none;
+        padding: 1rem 2rem;
+        margin-top: 2.2rem;
+        position: relative;
     }
     
     .form__div {
@@ -26,7 +43,15 @@
         align-items: center;
     }
 
-   
+    .colab__videos {
+        display: flex;
+        flex-wrap: no-wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        text-transform: uppercase;
+        margin-top: 20rem;
+    }
 
     footer {
         font-size: 1rem;
@@ -35,14 +60,13 @@
 
     .menu__div {
         display: flex;
+        }
         
     .menu {
         flex-direction: column;
         justify-content: center;
         font-size: 10px;
      }
-
-    }
 
     .h2__ns {
         font-size: 20px;
@@ -69,77 +93,33 @@
 
 }
 
-@media screen and (max-width: 780px) {
-    
-    body {
-        display: flex;
-        justify-content: space-evenly;
-        font-size: 10px;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-
-       header {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-
-        .logo {
-            display: none;
-        }
-    }
-    
-    }
-    
-    .form__div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-   .index__suscribe {
-    flex-direction: column;
-   }
-
-    footer {
-        font-size: 1rem;
-        display: flex;
-    }
-
-
-
-    .menu__div {
-        display: flex;
+@media screen and (max-width: 768px) {
         
-    .menu {
-        flex-direction: column;
-        justify-content: center;
-        font-size: 10px;
-     }
-
-    }
-
-    .h2__ns {
-        font-size: 20px;
-    }
-
-    .contenido {
+    .colab__videos {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-
-    .conteiner {
-        display: flex;
-        flex-direction: column;
-        max-width: 500px;
-    }
-
-    .clips {
-        display: flex;
-        flex-direction: column;
-        max-width: 500px;
-    }
+        flex-direction: row;
+        gap: 3rem;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        margin-top: 20rem;
+        align-items: baseline;
+        justify-content: flex-end;
     
+    }
+
+    header .logo {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        list-style: none;
+        padding: 1rem 2rem;
+        margin-top: 2.2rem;
+        position: relative;
+
+    }
 
 }

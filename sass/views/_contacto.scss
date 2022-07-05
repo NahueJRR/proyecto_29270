@@ -21,6 +21,9 @@
     font-weight: bold;
     color: $font-color2;
     margin: 10rem 0 0 50rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 12.5rem;
 }
 
 
@@ -45,17 +48,14 @@
 
 
 }
-
-.btn {
-    width: 40rem;
-    height: 5rem;
-    background-color: #3866f2;
-    font-weight: 30rem;
-    border-radius: 1.5rem;
-
     .btn__wsp {
-        @extend .btn;
+        
         background-color: green;
+        font-weight: 30rem;
+        border-radius: 1.5rem;
+        width: 40rem;
+        height: 5rem;
+        
         &:hover { 
             background-color: greenyellow;
             
@@ -63,14 +63,19 @@
     }
     
     .btn__email {
-        @extend .btn;
+        
         background-color: #3866f2;
+        font-weight: 30rem;
+        border-radius: 1.5rem;
+        width: 40rem;
+        height: 5rem;
+    
+        
         &:hover {
             background-color: lightblue;
         }
 
     }
-}
 
 
 
